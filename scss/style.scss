@@ -1,0 +1,9 @@
+//load custom
+@use 'custom';
+// import the components
+@use 'components/mixins';
+@use 'components/sliders';
+@use 'components/sidebar';
+//import the sections
+@use 'sections/navbar';
+@use 'sections/categories';

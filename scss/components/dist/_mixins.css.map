@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_mixins.scss"],"sourcesContent":["@use '../custom' as *;\r\n//@mixin gradient \r\n@mixin gradient {\r\n    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));\r\n    position: fixed;\r\n}"],"file":"_mixins.css"}

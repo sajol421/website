@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.scss"],"sourcesContent":["//load custom\r\n@use 'custom';\r\n// import the components\r\n@use 'components/mixins';\r\n@use 'components/sliders';\r\n@use 'components/sidebar';\r\n//import the sections\r\n@use 'sections/navbar';\r\n@use 'sections/categories';"],"file":"style.css"}

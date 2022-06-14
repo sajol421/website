@@ -1,0 +1,89 @@
+@use '../custom' as *;
+.sidebar {
+  margin: 0;
+  width: 240px;
+  height: 55vh;
+  background-color: #8B1269;
+  position: relative;
+  font-style: bold;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (min-width: 1170px) {
+  .sidebar {
+    margin-left: 160px;
+    width: 30vh;
+    height: 55vh;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .sidebar {
+    width: 164px;
+    height: 50vh;
+    text-align: left;
+    float: none;
+    font-size: 0.7rem;
+    overflow: auto;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1170px) and (max-width: 700px) {
+  .sidebar {
+    width: 150px;
+    height: 47vh;
+    text-align: left;
+    font-size: 0.6rem;
+  }
+  .sidebar a {
+    float: none;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1170px) and (max-width: 570px) {
+  .sidebar {
+    width: 130px;
+    height: 47vh;
+    text-align: left;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1170px) and (max-width: 450px) {
+  .sidebar {
+    width: 115px;
+    height: 39vh;
+    text-align: left;
+    font-size: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=_sidebar.css.map */
